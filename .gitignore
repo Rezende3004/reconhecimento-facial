@@ -1,0 +1,42 @@
+# =========================
+# Ambiente Python
+# =========================
+.venv/
+venv/
+env/
+
+# =========================
+# Python
+# =========================
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+
+# =========================
+# IDE / Sistema
+# =========================
+.idea/
+.vscode/
+.DS_Store
+
+# =========================
+# DADOS
+# =========================
+data/*
+!data/.gitkeep
+!data/dataset/
+!data/dataset/.gitkeep
+
+# =========================
+# MODELOS TREINADOS
+# =========================
+assets/models/*
+!assets/models/.gitkeep
+
+# =========================
+# LOGS / TEMP
+# =========================
+*.log
+tmp/
