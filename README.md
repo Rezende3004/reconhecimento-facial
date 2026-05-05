@@ -2,7 +2,7 @@
 
 Projeto de reconhecimento facial em Python usando OpenCV.
 
-A arquitetura foi organizada para ficar limpa no GitHub, fácil de testar e simples de evoluir.
+A arquitetura foi organizada para ficar limpa, fácil de testar e simples de evoluir.
 
 ## O que tem aqui
 
@@ -196,9 +196,7 @@ python scripts/capture.py --name Joao --samples 50
 
 ## Segurança e privacidade
 
-Não suba fotos reais no GitHub. A pasta `data/dataset` fica ignorada no `.gitignore`.
-
-Também não suba modelos treinados com rostos reais se o repositório for público.
+Não sobe fotos reais no GitHub. A pasta `data/dataset` fica ignorada no `.gitignore`.
 
 
 ## Correção de segurança da webcam
@@ -209,5 +207,7 @@ Os comandos que usam câmera agora possuem:
 - uma única janela fixa por execução;
 - limite de FPS para não sobrecarregar a máquina;
 - fechamento seguro com `q` ou `ESC`.
-
 Se alguma janela travar, feche pelo gerenciador de tarefas e apague os arquivos em `data/runtime/`.
+
+## Autor
+João Pedro da Costa Rezende
